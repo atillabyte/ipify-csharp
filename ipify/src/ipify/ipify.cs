@@ -4,8 +4,6 @@ using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
 
-// This project can output the Class library as a NuGet Package.
-// To enable this option, right-click on the project and select the Properties menu item. In the Build tab select "Produce outputs on build".
 public static class ipify
 {
     public static class Settings
@@ -19,7 +17,6 @@ public static class ipify
         public static bool USING_PROXY = false;
         private static string VERSION = "1.0.0";
     }
-
 
     public enum Format
     {
