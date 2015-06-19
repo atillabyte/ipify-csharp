@@ -1,0 +1,15 @@
+﻿{
+  "version": "1.0.0-*",
+  "description": "A simple IP Address API",
+  "authors": [ "atillabyte (github)", "rdeggies (ipify.org)" ],
+  "tags": [ "ipify", "ip" ],
+  "projectUrl": "https://github.com/atillabyte/ipify-csharp",
+  "licenseUrl": "",
+
+  "dependencies": {
+  },
+
+  "frameworks": {
+    "dnx451": { }
+  }
+}

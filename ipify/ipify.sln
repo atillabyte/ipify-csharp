@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84A98787-4731-4C08-86AF-81E1554A216F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F5235F5F-E45A-4EC7-8AC5-140358B447F2}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ipify", "src\ipify\ipify.xproj", "{39A7E806-4264-47B7-BD96-698DBCA5FC85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{39A7E806-4264-47B7-BD96-698DBCA5FC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39A7E806-4264-47B7-BD96-698DBCA5FC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39A7E806-4264-47B7-BD96-698DBCA5FC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39A7E806-4264-47B7-BD96-698DBCA5FC85}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39A7E806-4264-47B7-BD96-698DBCA5FC85} = {84A98787-4731-4C08-86AF-81E1554A216F}
+	EndGlobalSection
+EndGlobal
